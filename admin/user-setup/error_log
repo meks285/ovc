@@ -1,0 +1,9 @@
+[22-Aug-2022 00:28:52 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/admin/user-setup/index.php on line 154
+[22-Aug-2022 00:29:27 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/admin/user-setup/index.php on line 154
+[22-Aug-2022 00:29:57 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/admin/user-setup/index.php on line 155
+[22-Aug-2022 00:30:24 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/admin/user-setup/index.php on line 155
+[22-Aug-2022 00:31:14 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/admin/user-setup/index.php on line 155
+[22-Aug-2022 00:31:16 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/admin/user-setup/index.php on line 155
+[07-Sep-2022 09:10:15 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/admin/user-setup/index.php on line 160
+[07-Sep-2022 09:10:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/admin/user-setup/index.php on line 160
+[07-Sep-2022 09:11:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/admin/user-setup/index.php on line 160

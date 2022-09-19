@@ -1,0 +1,10 @@
+[07-Sep-2022 09:19:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 INSERT command denied to user 'ovcapin_root'@'localhost' for table 'user_tab' in /home/ovcapin/public_html/admin/user-setup/db/createUserRecord.php:47
+Stack trace:
+#0 /home/ovcapin/public_html/admin/user-setup/db/createUserRecord.php(47): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ovcapin/public_html/admin/user-setup/db/createUserRecord.php on line 47
+[07-Sep-2022 09:19:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 INSERT command denied to user 'ovcapin_root'@'localhost' for table 'user_tab' in /home/ovcapin/public_html/admin/user-setup/db/createUserRecord.php:47
+Stack trace:
+#0 /home/ovcapin/public_html/admin/user-setup/db/createUserRecord.php(47): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ovcapin/public_html/admin/user-setup/db/createUserRecord.php on line 47

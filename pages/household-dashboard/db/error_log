@@ -1,0 +1,141 @@
+[22-Aug-2022 12:36:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 INSERT command denied to user 'ovcapin_root'@'localhost' for table 'vcenrollment' in /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php:62
+Stack trace:
+#0 /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php(62): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php on line 62
+[22-Aug-2022 12:38:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 INSERT command denied to user 'ovcapin_root'@'localhost' for table 'vcenrollment' in /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php:62
+Stack trace:
+#0 /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php(62): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php on line 62
+[22-Aug-2022 14:21:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 INSERT command denied to user 'ovcapin_root'@'localhost' for table 'vcenrollment' in /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php:62
+Stack trace:
+#0 /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php(62): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php on line 62
+[22-Aug-2022 14:21:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 INSERT command denied to user 'ovcapin_root'@'localhost' for table 'vcenrollment' in /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php:62
+Stack trace:
+#0 /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php(62): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php on line 62
+[24-Aug-2022 12:24:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-1' at line 47 in /home/ovcapin/public_html/pages/household-dashboard/db/getVcList.php:89
+Stack trace:
+#0 /home/ovcapin/public_html/pages/household-dashboard/db/getVcList.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/getVcList.php on line 89
+[24-Aug-2022 12:24:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-1' at line 47 in /home/ovcapin/public_html/pages/household-dashboard/db/getVcList.php:89
+Stack trace:
+#0 /home/ovcapin/public_html/pages/household-dashboard/db/getVcList.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/getVcList.php on line 89
+[24-Aug-2022 16:42:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Primary Health and Maternity - Oka Akoko',
+                    '2022-08-01',' at line 45 in /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php:93
+Stack trace:
+#0 /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php(93): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php on line 93
+[24-Aug-2022 16:57:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'enrollment_date' cannot be null in /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php:94
+Stack trace:
+#0 /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php(94): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php on line 94
+[24-Aug-2022 16:57:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'enrollment_date' cannot be null in /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php:94
+Stack trace:
+#0 /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php(94): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php on line 94
+[24-Aug-2022 23:04:26 UTC] PHP Fatal error:  Uncaught Error: Cannot pass parameter 2 by reference in /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php:132
+Stack trace:
+#0 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/createVCEnrollment.php on line 132
+[26-Aug-2022 19:55:05 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 43
+[26-Aug-2022 19:55:05 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 44
+[26-Aug-2022 19:55:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 43
+[26-Aug-2022 19:55:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 44
+[26-Aug-2022 19:56:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 43
+[26-Aug-2022 19:56:51 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 44
+[26-Aug-2022 19:58:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 43
+[26-Aug-2022 19:58:01 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 44
+[26-Aug-2022 20:04:34 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 43
+[26-Aug-2022 20:04:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 44
+[26-Aug-2022 20:04:38 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 43
+[26-Aug-2022 20:04:38 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 44
+[26-Aug-2022 20:12:16 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 43
+[26-Aug-2022 20:12:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 44
+[26-Aug-2022 20:12:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 43
+[26-Aug-2022 20:12:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 44
+[26-Aug-2022 21:32:48 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 43
+[26-Aug-2022 21:32:48 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 44
+[26-Aug-2022 21:32:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '' for column 'dateenrolledontreatment' at row 1 in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php:83
+Stack trace:
+#0 /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php(83): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php on line 83
+[26-Aug-2022 21:51:30 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 43
+[26-Aug-2022 21:51:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 44
+[26-Aug-2022 21:51:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[IM001]: Driver does not support this function: This driver doesn't support setting attributes in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php:33
+Stack trace:
+#0 /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php(33): PDOStatement->setAttribute(3, 2)
+#1 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php on line 33
+[26-Aug-2022 21:54:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 43
+[26-Aug-2022 21:54:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 44
+[26-Aug-2022 21:54:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[IM001]: Driver does not support this function: This driver doesn't support setting attributes in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php:33
+Stack trace:
+#0 /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php(33): PDOStatement->setAttribute(3, 2)
+#1 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php on line 33
+[26-Aug-2022 22:00:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php on line 28
+[26-Aug-2022 22:01:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php on line 28
+[26-Aug-2022 22:01:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php on line 28
+[26-Aug-2022 22:06:03 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 43
+[26-Aug-2022 22:06:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 44
+[26-Aug-2022 22:06:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php on line 28
+[26-Aug-2022 22:07:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php on line 28
+[26-Aug-2022 22:22:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php on line 28
+[26-Aug-2022 22:31:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'datenrolledontreatment' in 'field list' in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php:58
+Stack trace:
+#0 /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php(58): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php on line 58
+[26-Aug-2022 22:32:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'datenrolledontreatment' in 'field list' in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php:58
+Stack trace:
+#0 /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php(58): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php on line 58
+[26-Aug-2022 22:33:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'datenrolledontreatment' in 'field list' in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php:58
+Stack trace:
+#0 /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php(58): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/createBeneficiaryStatusUpdate.php on line 58
+[27-Aug-2022 08:23:39 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 43
+[27-Aug-2022 08:23:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 44
+[27-Aug-2022 08:38:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 43
+[27-Aug-2022 08:38:10 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 44
+[27-Aug-2022 08:38:19 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 43
+[27-Aug-2022 08:38:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 44
+[31-Aug-2022 03:25:11 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 43
+[31-Aug-2022 03:25:11 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ovcapin/public_html/pages/household-dashboard/db/getLastBeneficiaryId.php on line 44
+[31-Aug-2022 16:37:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '' for column 'followup_date' at row 1 in /home/ovcapin/public_html/pages/household-dashboard/db/createtReferralFormRecord.php:66
+Stack trace:
+#0 /home/ovcapin/public_html/pages/household-dashboard/db/createtReferralFormRecord.php(66): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ovcapin/public_html/pages/household-dashboard/db/createtReferralFormRecord.php on line 66
